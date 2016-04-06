@@ -1,0 +1,26 @@
+.clearfix div{
+	width: 25%;
+	height: 100px;
+	float: left;
+	
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix{
+	border:1px solid gray;
+}
+.amarillo{
+	background-color: yellow;
+}
+.azul{
+	background-color: blue
+}
+.rojo{
+	background-color: red;
+}
